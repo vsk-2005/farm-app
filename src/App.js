@@ -20,7 +20,7 @@ import {
 
 // IMPORTANT: These are special global variables provided by the Canvas environment.
 // We must use these for Firebase initialization to work correctly.
-//const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 const firebaseConfig = {
   apiKey: "AIzaSyCepafd4ReyV2aF7fsB-k9R_uIweeDfCmU",
   authDomain: "farmtohome-fbe28.firebaseapp.com",
